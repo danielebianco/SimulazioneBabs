@@ -1,9 +1,8 @@
 package it.polito.tdp.babs.db;
 
-import java.util.List;
-
-import it.polito.tdp.babs.model.Station;
-import it.polito.tdp.babs.model.Trip;
+//import java.util.List;
+//import it.polito.tdp.babs.model.Station;
+//import it.polito.tdp.babs.model.Trip;
 
 public class TestDAO {
 
