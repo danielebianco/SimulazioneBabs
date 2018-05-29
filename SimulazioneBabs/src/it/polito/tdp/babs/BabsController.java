@@ -63,8 +63,8 @@ public class BabsController {
 		try {
 			txtResult.clear();
 			LocalDate date = pickData.getValue();
-			
-			if (date.getDayOfWeek().getValue() > 4) {
+			// [0-6] -> [LUN-DOM]
+			if (date.getDayOfWeek().getValue() > 4) { 
 				txtResult.setText("Selezionare una data dal Lun al Ven");
 				return;
 			}

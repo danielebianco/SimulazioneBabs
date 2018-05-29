@@ -8,7 +8,7 @@ public class Simulazione {
 	
 	private LocalDate date;
 	private double k;
-	private PriorityQueue pq;
+	private PriorityQueue<?> pq;
 	private Model model;
 	
 	private enum EventType {
@@ -19,7 +19,7 @@ public class Simulazione {
 		this.date = date;
 		this.k = k;
 		this.model = model;
-		pq = new PriorityQueue();
+		pq = new PriorityQueue<>();
 	}
 	
 	public void run() {
